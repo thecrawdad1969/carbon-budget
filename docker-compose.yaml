@@ -6,6 +6,7 @@ services:
     volumes:
       - ./:/usr/local/app
       - $HOME/.aws:/root/.aws:ro
-      - C:/GIS/Carbon_model/test_tiles/docker_output/:/usr/local/tiles
+      - C:/Users/thecr/Documents/GitHub/carbon-budget/test_tiles/docker_output/:/usr/local/tiles
     working_dir: /usr/local/app
     entrypoint: /bin/bash
+    
