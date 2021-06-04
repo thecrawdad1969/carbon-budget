@@ -55,6 +55,7 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 
 # Enable ec2 to interact with GitHub
 RUN git config --global user.email dagibbs22@gmail.com
+#RUN git config --global user.email dagibbs22@gmail.com
 
 ## Check out the branch that I'm currently using for model development
 #RUN git checkout model_v_1.2.1
